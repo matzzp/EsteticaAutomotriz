@@ -837,13 +837,14 @@ h1 {
 
 
 .servicio .texto h3 { 
-    font-size: 1.3rem; 
-    line-height: 1; 
+    font-size: 1.7rem; 
+    line-height: 1.5; 
     margin: 5px 0px; 
 }
 
 .servicio .texto p  { 
     font-size: 1rem; 
+    display: none;
     
 }
 #segunda_seccion {
