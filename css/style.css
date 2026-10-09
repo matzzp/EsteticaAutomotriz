@@ -853,7 +853,8 @@ h1 {
     padding-bottom: 50px;
 }
 #div_segunda_seccion {
-    width: 90%;
+    width: 90%; 
+    background-image: url(../assets/servicios/Espuma-mobile.jpg);
 } 
 
 
