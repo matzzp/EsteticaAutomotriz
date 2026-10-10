@@ -810,7 +810,7 @@ h1 {
 }
 
 #primera_seccion {
-    background: linear-gradient(135deg, rgb(241, 241, 100) 47%, transparent 45%), url(../assets/Mobile-header.jpg) center / cover no-repeat; 
+    background: linear-gradient(135deg, rgb(241, 241, 100) 47%, transparent 45%), url(../assets/Mobile-header.jpeg) center / cover no-repeat; 
     height: 550px;
 }
 
