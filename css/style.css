@@ -76,7 +76,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(135deg, rgb(241, 241, 100) 48%, transparent 45%), url(../assets/Honda-header.webp) center / cover no-repeat;
+    background: linear-gradient(135deg, rgba(241, 241, 100, 0.85) 48%, transparent 45%), url(../assets/Honda-header.webp) center / cover no-repeat;
     width: 100%;
     height: 700px;
     padding-bottom: 50px;
@@ -810,7 +810,7 @@ h1 {
 }
 
 #primera_seccion {
-    background: linear-gradient(135deg, rgb(241, 241, 100) 47%, transparent 45%), url(../assets/Mobile-header.jpeg) center / cover no-repeat; 
+    background: linear-gradient(135deg, rgba(241, 241, 100, 0.85) 47%, transparent 45%), url(../assets/Mobile-header.jpeg) center / cover no-repeat; 
     height: 550px;
 }
 
