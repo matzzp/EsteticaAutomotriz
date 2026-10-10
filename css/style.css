@@ -250,9 +250,15 @@ h1 {
 #imagenes_metodos_pago {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     margin-top: 30px;
+    
 }
 
+#imagenes_metodos_pago div img {
+    display: flex;
+    align-items: baseline;
+}
 #imagenes_metodos_pago div {
     width: 30%;
     display: flex;
@@ -266,8 +272,13 @@ h1 {
 
 #imagenes_metodos_pago div p {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    min-height: 2.6em;
     font-weight: 700;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+
 }
 
 
@@ -539,7 +550,7 @@ h1 {
 }
 
 #primera_seccion {
-    background: linear-gradient(135deg, rgb(241, 241, 100) 47%, transparent 45%), url(../assets/Honda-header.webp) center / cover no-repeat; 
+    
     height: 550px;
 }
 
@@ -912,7 +923,11 @@ h1 {
     font-weight: 700;
 }
 
-
+#imagenes_metodos_pago {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
 
 /* CUARTA SECCION */
 
@@ -992,6 +1007,9 @@ h1 {
 iframe { 
     width: 90%; 
 }
-
+ #direccion_div {
+    margin-top: 15px;
+    margin-bottom: 15px;
+ }
 
 }
