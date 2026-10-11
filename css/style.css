@@ -807,7 +807,7 @@ iframe {
     width: 100%;
 }
 h1 { 
-    font-size: 2rem; 
+    font-size: 1.8rem; 
     white-space: normal; 
     margin: 0 10px; 
     margin-bottom: 19rem; 
@@ -826,7 +826,7 @@ h1 {
 }
 
 #bienvenida_div h2 { 
-    font-size: 1.9rem; 
+    font-size: 1.7rem; 
     margin-top: 3rem; 
     margin-bottom: 2rem; 
     font-weight: 600;
@@ -849,22 +849,24 @@ h1 {
 
 
 .servicio .texto h3 { 
-    font-size: 1.3rem; 
+    font-size: 1.1rem; 
     line-height: 1; 
     margin: 5px 0px; 
 }
 
 .servicio .texto p  { 
-    font-size: 1.1rem; 
-    /* font-weight: 400; */
+    font-size: 0.9rem; 
 
-    
 }
+
+
 #segunda_seccion {
     margin-top: 0px;
     margin-bottom: 0px;
     padding-bottom: 50px;
 }
+
+
 #div_segunda_seccion {
     width: 90%; 
     background-image: url(../assets/servicios/Espuma-mobile.jpg);
@@ -912,7 +914,7 @@ h1 {
 }
 
 #tercera_seccion_div p {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 #tercera_seccion_div { 
@@ -925,7 +927,7 @@ h1 {
 }
 
 #imagenes_metodos_pago div p {
-    font-size: 1.2rem; 
+    font-size: 1rem; 
     font-weight: 700;
 }
 
@@ -962,7 +964,7 @@ h1 {
 
 #direccion_div p {
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 #cuarta_seccion_div_redes {
