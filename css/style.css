@@ -1100,7 +1100,7 @@ h1 {
 #que_ofrecemos_div {
     gap: 0px 10px;
     flex-wrap: wrap;
-    height: 120px;
+    height: auto;
     justify-content: center;
     padding: 0px 20px;
     
