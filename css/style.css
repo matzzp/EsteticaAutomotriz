@@ -1091,11 +1091,12 @@ h1 {
 }
 
 #que_ofrecemos_div {
-    gap: 4px 0px;
+    gap: 4px 10px;
     flex-wrap: wrap;
     height: 140px;
     justify-content: space-between;
     padding: 0px 20px;
+    align-items: flex-start;
 }
 
 #que_ofrecemos_div div p {
