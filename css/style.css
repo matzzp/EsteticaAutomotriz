@@ -504,7 +504,8 @@ h1 {
     display: flex;
     flex-direction: column;
     border-radius: 25px;
-    /* box-shadow: 0px 0px 12px rgb(114, 114, 114); */
+    box-shadow: 0px 0px 12px rgb(114, 114, 114);
+    background-color: white;
     width: 50%;
     height: 480px;
     align-items: center;
@@ -567,7 +568,8 @@ iframe {
 #cuarta_seccion_div_redes {
     width: 18%;
     padding: 0px 15px;
-    /* box-shadow: 0px 0px 12px black; */
+    box-shadow: 0px 0px 12px rgb(114, 114, 114);
+    background-color: white;
     border-radius: 25px;
     height: 480px;
     display: flex;
