@@ -775,7 +775,7 @@ iframe {
     flex-wrap: wrap; 
     justify-content: center; 
     padding: 0; 
-    font-size: 1.5rem; 
+    font-size: 1.2rem; 
 }
 
 
@@ -783,39 +783,70 @@ iframe {
 
 #seccion_bienvenida {
     width: 100%;
-    padding-bottom: 8rem;
 }
 h1 { 
-    font-size: 2.8rem; 
+    font-size: 2rem; 
     white-space: normal; 
-    margin: 0 10px; 
+    margin: 0 15px; 
     line-height: 1.5; 
 }
 
 #titulo_h2 {
     font-size: 1.2rem;
-    margin: 0px 10px;
+     margin: 10px 15px 40px 15px;
     font-weight: 400;
+    line-height: 1.4;
+}
+
+#primera_seccion a {
+    font-size: 1.2rem;
+    margin: 0px 8px;
 }
 
 #primera_seccion div { 
     width: 100%; 
-
+    padding-bottom: 18rem;
 }
 
 #primera_seccion {
-    
     height: 550px;
 }
 
+#que_ofrecemos_div div {
+    width: 22%;
+    display: flex;
+    justify-content: left;
+    margin-left: 2%;
+    
+}
+
+#que_ofrecemos_div {
+    gap: 0px 10px;
+    /* flex-wrap: wrap; */
+    height: auto;
+    justify-content: center;
+    width: 100%;
+    padding: 0px 0px;
+    
+}
+
+#que_ofrecemos_div div p {
+    font-size: 1rem;
+}
+
+.imagen_ofrecemos {
+    width: 40px;
+    height: 40px;
+}
+
 #bienvenida_div h2 { 
-    font-size: 2.4rem; 
+    font-size: 2rem; 
     margin-top: 3rem; 
     margin-bottom: 2rem; 
 }
 
 #bienvenida_div {
-    width: 90%;
+    width: 100%;
 }
 
 #bienvenida_div_p {
@@ -842,9 +873,10 @@ h1 {
 }
 
 #segunda_seccion {
+    mask-image: linear-gradient(to bottom, black 97%, transparent);
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-bottom: 50px;
+    padding-bottom: 90px;
 }
 
 #div_segunda_seccion {
@@ -852,33 +884,116 @@ h1 {
 } 
 
 
-#div_segunda_seccion h2 { 
+#segunda_seccion h2 { 
     
-    font-size: 2.4rem; 
-    margin-bottom: 10rem; 
+    font-size: 2rem; 
+    margin-bottom: 0.5rem; 
     margin-top: 10px;
     line-height: 1.1;
     
 }
 
-.texto_izquierda {
-    margin-left: 8px;
-    width: 48%;
+.servicio {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 50px 0;
+    padding-top: 0px;
+}
+
+.servicio .texto h3 { 
+    font-size: 1.5rem; 
+    line-height: 1; 
+    margin: 5px 0px; 
+    margin-top: 0px;
+}
+
+.servicio .texto p  { 
+    font-size: 1rem; 
+
+}
+
+ /* PAQUETES */
+
+#seccion_paquetes h2 {
+    font-size: 2rem;
+}
+
+/* COMO FUNCIONA */
+
+#como_funciona {
+    width: 90%;
+}
+
+.pasos_div {
+    width: 30%;
+    margin: 0px;
+    padding: 0;
+}
+
+#seccion_como_funciona h2 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.pasos_div h3 {
+    width: 55px;
+    height: 55px;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+.pasos_div h4 {
+    margin: 10px;
+    font-size: 1rem;
+}
+
+.pasos_div p {
+    margin-bottom: 40px;
+    font-size: 1rem;
 }
 
 
-.texto_derecha {
-    margin-right: 8px;
-    text-align: right;
-    width: 48%;
+/* NUESTROS CLIENTES */
+
+
+#nuestros_clientes {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 50px;
 }
 
-
-.texto_derecha h3, .texto_izquierda h3 {
-    margin: 2px 0px; 
-    line-height: 1;
+#nuestros_clientes h2 {
+    font-size: 2rem;
 }
 
+#seccion_clientes {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+.card_clientes {
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.card_clientes h3 {
+    font-size: 1.15rem;
+}
+
+.card_clientes p {
+    font-size: 0.9rem;
+}
+
+.card_clientes h4 {
+    font-size: 1rem;
+}
+
+#enlace_reseñas {
+    margin: 0px;
+}
 
 
 
@@ -889,7 +1004,7 @@ h1 {
 }
 
 #tercera_seccion_div h2 { 
-    font-size: 2.4rem; 
+    font-size: 2rem; 
 }
 
 #tercera_seccion_div { 
@@ -902,10 +1017,15 @@ h1 {
 }
 
 #imagenes_metodos_pago div p {
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 700;
 }
 
+#imagenes_metodos_pago {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
 
 
 /* CUARTA SECCION */
@@ -922,8 +1042,9 @@ h1 {
     align-items: center; 
     gap: 40px; 
     width: 100%;
-    padding: 0px;
-    margin: 30px 0px;
+    padding: 100px 0px 100px 0px;
+    margin: 0px;
+    mask-image: linear-gradient(to top, black 87%, transparent);
 }
 
 
@@ -935,7 +1056,8 @@ h1 {
 
 #direccion_div p {
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    margin-bottom: 20px;
 }
 
 #cuarta_seccion_div_redes {
@@ -944,7 +1066,7 @@ h1 {
 }
 
 #cuarta_seccion_imagenes div img {
-    height: 65px;
+    height: 75px;
 }
 
 #cuarta_seccion_div_ubicacion {
@@ -956,11 +1078,19 @@ h1 {
     width: 100%;
 }
 
+#cuarta_seccion_div_ubicacion div h2{
+    font-size: 2rem;
+}
+
 #cuarta_seccion_div_redes div {
     width: 100%; 
     padding-bottom: 10px;
 }
 
+
+#cuarta_seccion_div_redes div h2 {
+    font-size: 2rem;
+}
 
 
 
