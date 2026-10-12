@@ -87,9 +87,6 @@ header {
     
 }
 
-#titulo_mobile {
-    display: none;
-}
 
 h1 {
     font-size: 2.8rem;
@@ -1037,6 +1034,7 @@ iframe {
 #div_header { 
     flex-direction: column; 
     height: auto; 
+    padding: 10px 0px 0px 0px;
 }
 
 #imagen_logo { 
@@ -1050,7 +1048,7 @@ iframe {
     flex-wrap: wrap; 
     justify-content: center; 
     padding: 0; 
-    font-size: 1rem; 
+    font-size: 0.8rem; 
 }
 
 
@@ -1058,26 +1056,26 @@ iframe {
 
 #seccion_bienvenida {
     width: 100%;
-}
-#titulo_h1 {
-    display: none;
+    
 }
 
-#titulo_mobile {
-    display: block;
-}
 
 h1 { 
-    font-size: 1.8rem; 
+    font-size: 1.2rem; 
     margin: 0 10px; 
     line-height: 1.2; 
 }
 
 #titulo_h2 {
-    font-size: 1.1rem;
-    margin: 20px 10px;
+    font-size: 0.8rem;
+    margin: 10px 10px 40px 10px;
     font-weight: 400;
     line-height: 1.4;
+}
+
+#primera_seccion a {
+    font-size: 0.8rem;
+    margin: 0px 8px;
 }
 
 
@@ -1088,12 +1086,29 @@ h1 {
 }
 
 #primera_seccion {
-    background: linear-gradient(135deg, rgba(241, 241, 100, 0.85) 47%, transparent 45%), url(../assets/Mobile-header.jpeg) center / cover no-repeat; 
+    background: linear-gradient(135deg, rgba(255, 174, 0, 0.85) 47%, transparent 45%), url(../assets/Mobile-header.jpeg) center / cover no-repeat; 
     height: 550px;
 }
 
+#que_ofrecemos_div {
+    gap: 4px 0px;
+    flex-wrap: wrap;
+    height: 140px;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+#que_ofrecemos_div div p {
+    font-size: 0.8rem;
+}
+
+.imagen_ofrecemos {
+    width: 30px;
+    height: 30px;
+}
+
 #bienvenida_div h2 { 
-    font-size: 1.6rem; 
+    font-size: 1.3rem; 
     margin-top: 3rem; 
     margin-bottom: 2rem; 
     font-weight: 600;
@@ -1109,10 +1124,20 @@ h1 {
 }
 
 #bienvenida_div_p p {
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 /* SEGUNDA SECCION */
+
+
+#segunda_seccion h2 { 
+    
+    font-size: 1.3rem; 
+    margin-bottom: 0.5rem;
+    margin-top: 10px;
+    line-height: 1.1;
+    
+}
 
 .servicio {
     display: flex;
@@ -1123,22 +1148,24 @@ h1 {
 }
 
 .servicio .texto h3 { 
-    font-size: 1.1rem; 
+    font-size: 1rem; 
     line-height: 1; 
     margin: 5px 0px; 
     margin-top: 0px;
 }
 
 .servicio .texto p  { 
-    font-size: 0.9rem; 
+    font-size: 0.8rem; 
 
 }
 
 
 #segunda_seccion {
+    mask-image: linear-gradient(to bottom, black 97%, transparent);
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-bottom: 50px;
+    width: 100%;
+    padding-bottom: 90px;
 }
 
 
@@ -1147,15 +1174,6 @@ h1 {
     /* background-image: url(../assets/servicios/Espuma-mobile.jpg); */
 } 
 
-
-#div_segunda_seccion h2 { 
-    
-    font-size: 1.4rem; 
-    margin-bottom: 5rem; 
-    margin-top: 10px;
-    line-height: 1.1;
-    
-}
 
 .texto_izquierda {
     margin-left: 8px;
@@ -1176,7 +1194,110 @@ h1 {
 }
 
 
+/* PAQUETES */
 
+
+#seccion_paquetes {
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+}
+
+#seccion_paquetes h2 {
+    font-size: 1.3rem;
+}
+
+#paquetes_div {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px 0px;
+    margin-top: 2rem;
+    width: 80%;
+    height: auto;
+    
+}
+
+.paquetes_lavado {
+    width: 100%;
+    height: auto;
+}
+
+.titulo_paquete {
+    font-size: 1rem;
+} 
+
+.datos_paquete {
+    font-size: 0.8;
+    margin-top: 1rem;
+}
+
+.boton_paquete a {
+    margin-top: 1rem;
+}
+
+
+/* COMO FUNCIONA */
+
+#seccion_como_funciona {
+    margin-bottom: 30px;
+}
+
+
+#seccion_como_funciona h2 {
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+}
+
+#como_funciona {
+    flex-direction: column;
+    width: 90%;
+}
+
+.pasos_div {
+    width: 100%;
+    margin: 0px;
+}
+
+.pasos_div h3 {
+    width: 30px;
+    height: 30px;
+    font-size: 1.2rem;
+    margin: 10px;
+}
+
+.pasos_div h4 {
+    margin: 10px;
+    font-size: 1.1rem;
+}
+
+.pasos_div p {
+    margin-bottom: 40px;
+}
+
+
+/* NUESTROS CLIENTES */
+
+#nuestros_clientes {
+    margin-bottom: 50px;
+}
+
+#nuestros_clientes h2 {
+    font-size: 1.3rem;
+}
+
+#seccion_clientes {
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.card_clientes {
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+#enlace_reseñas {
+    margin: 0px;
+}
 
 /* TERCERA SECCION */
 
@@ -1226,8 +1347,9 @@ h1 {
     align-items: center; 
     gap: 40px; 
     width: 100%;
-    padding: 0px;
-    margin: 30px 0px;
+    padding: 100px 0px 100px 0px;
+    margin: 0px;
+    mask-image: linear-gradient(to top, black 87%, transparent);
 }
 
 
@@ -1300,6 +1422,16 @@ iframe {
  #direccion_div {
     margin-top: 15px;
     margin-bottom: 15px;
+ }
+
+ /* FOOTER */
+
+
+
+#logo_footer {
+    height: 80px;
+    position: relative;
+    top: -35px;
  }
 
 }
