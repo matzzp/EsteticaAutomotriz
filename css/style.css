@@ -1090,13 +1090,20 @@ h1 {
     height: 550px;
 }
 
+#que_ofrecemos_div div {
+    width: 40%;
+    display: flex;
+    justify-content: left;
+    
+}
+
 #que_ofrecemos_div {
-    gap: 4px 10px;
+    gap: 0px 10px;
     flex-wrap: wrap;
-    height: 140px;
-    justify-content: space-between;
+    height: 120px;
+    justify-content: center;
     padding: 0px 20px;
-    align-items: flex-start;
+    
 }
 
 #que_ofrecemos_div div p {
