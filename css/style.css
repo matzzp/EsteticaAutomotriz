@@ -1233,7 +1233,7 @@ h1 {
     flex-wrap: wrap;
     height: auto;
     justify-content: center;
-    padding: 0px 60px;
+    padding: 0px 0px;
     
 }
 
@@ -1254,7 +1254,7 @@ h1 {
 }
 
 #bienvenida_div {
-    width: 90%;
+    width: 100%;
 }
 
 #bienvenida_div_p {
